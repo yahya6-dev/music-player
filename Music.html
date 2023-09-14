@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="apple-touch-icon" sizes="192x192" href="192x192.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="512x512.png">
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <script src="dist/js/bootstrap.bundle.min.js"></script>
+    
+   
+    <style>
+      @import url(Music.css)
+    </style>
+
+
+
+	
+</head>
+<body style="margin:auto; width:508px;margin-top:32px;padding:8px;background-image:linear-gradient(15deg,rgb(32,32,32),rgb(32,32,64))">
+
+ <header>
+  <img src="test06.jpg" id="one" alt="Custom frontal">
+  <section id="two">
+   <progress max="100"  min="0.01" value="0" id="status">
+    <audio id="player">
+     <source src="test.mp3" type="audio/mp3"/>
+    </audio>    
+   </progress>
+   <span class="timer" id="start"></span>
+   <span class="timer" id="end"></span>
+   <img src="play-circle.svg" id="play" alt="play button">
+   <img src="rewind.svg" id="restart" alt="restarting the play">
+   <img src="fast-forward.svg" alt="still  seeking next song" id="forward">
+   <span id="title"></span>
+  </section>
+ </header>
+ <script src="Music.js"></script>
+  
+</body>
+</html>
+
